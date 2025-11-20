@@ -1,4 +1,0 @@
-RPD329-Ferrari-California-6900-2025.01.01-nincs-Hajdu_Patrik_Zsolt
-ABC123-Toyota-GT40-123567-2010.07.28-V:muszaki_vizsga,2025.02.15,40000,123560,sikertelen;K:gumi_csere,2025.04.14,66500,123567-Vig_Petra
-LOL444-Mazda-MX5-228954-2000.11.20-V:muszaki_vizsga,2024.12.10,35000,228000,sikeres-Hajdu_Patrik_Zsolt
-ABA560-Porche-Boxer-77399-2022.01.03-J:karbon_spoiler_es_tuninngolas,2022.01.05,500000,77450-Kun_Gergo_Erno
