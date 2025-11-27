@@ -1,3 +1,10 @@
+![C++](https://img.shields.io/badge/C%2B%2B-11-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+![CMake](https://img.shields.io/badge/Build-CMake-064F8C?style=flat&logo=cmake&logoColor=white)
+![OOP](https://img.shields.io/badge/Concept-Polymorphism-blueviolet?style=flat)
+![Pattern](https://img.shields.io/badge/Pattern-Prototype_(Clone)-blueviolet?style=flat)
+![Data Structure](https://img.shields.io/badge/Container-Custom_Vector_template-critical?style=flat)
+![Memory](https://img.shields.io/badge/Memory-Manual_Mgmt_%2F_Leak_Free-important?style=flat)
+![GTest](https://img.shields.io/badge/Test-GTest--lite-02553D?style=flat&logo=google&logoColor=white)
 # Service Registry C++
 
 This is a comprehensive, menu-driven C++ console application developed for the "Programming Fundamentals 2" course. It simulates a complete management system for a car service station, allowing for the tracking of clients, vehicles, and their detailed, polymorphic service histories.
