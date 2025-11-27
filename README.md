@@ -4,6 +4,8 @@ This is a comprehensive, menu-driven C++ console application developed for the "
 
 The project is built from scratch in C++ and serves as a practical demonstration of core object-oriented programming (OOP) principles, dynamic memory management, and custom data structures.
 
+---
+
 ## 📚 Features
 
 * **Client & Vehicle Management:** Full CRUD (Create, Read, Update, Delete) operations for clients and their associated vehicles.
