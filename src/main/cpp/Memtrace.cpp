@@ -22,8 +22,6 @@ typo:       2019.
 #include <time.h>
 #include <ctype.h>
 
-#ifndef MEMTRACE
-#define MEMTRACE
 #define FROM_MEMTRACE_CPP
 #include "memtrace.h"
 
@@ -547,19 +545,3 @@ int atexit_class::counter = 0;
 int atexit_class::err = 0;
 #endif
 END_NAMESPACE
-#endif
-
-#if defined(MEMTRACE)
-namespace memtrace {
-#if defined(MEMTRACE_TO_MEMORY) && defined(USE_ATEXIT_OBJECT)
-	// Statikus tagok inicializálása (definíciója)
-	int atexit_class::counter = 0;
-	int atexit_class::err = 0;
-#endif
-} // namespace memtrace
-#endif
-
-// A statikus objektum definíciója
-#if defined(MEMTRACE) && defined(MEMTRACE_TO_MEMORY) && defined(USE_ATEXIT_OBJECT)
-	memtrace::atexit_class memtrace::atexit_obj;
-#endif
