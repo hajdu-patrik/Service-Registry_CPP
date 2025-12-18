@@ -110,3 +110,11 @@ The system saves and loads data using two custom `.txt` file formats:
 * **Auto File (`*_auo.txt`):** Stores vehicle and service data.
     * *Format:* `rendszam-marka-tipus-km_ora-uzembe_helyezes_datuma-szervizmuveletek-tulajdonos_nev`
     * The `szervizmuveletek` field is a complex, semi-colon-delimited list of polymorphic service records.
+
+---
+
+## 📦 Releases
+
+| Version | Description | Download |
+| :--- | :--- | :--- |
+| **v1.0.0** | **Service Registry v1.0.0** - Initial release of the comprehensive car service management system. Features full CRUD operations, polymorphic service tracking, custom memory management logic, and file-based persistence. | [Source code (zip)](https://github.com/hajdu-patrik/Service-Registry_CPP/archive/refs/tags/v1.0.0.zip) |
