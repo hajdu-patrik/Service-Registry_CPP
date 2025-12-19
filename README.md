@@ -71,7 +71,7 @@ To enforce clarity and the separation of concerns (OOP principle), the project u
 
 ## ⚙️ Compilation & Execution
 
-The project supports both **Gradle** (recommended for modern automation) and **CMake** (industry standard) build systems.
+The project supports **Gradle** (recommended for modern automation).
 
 ### A. Modern Method (Using Gradle)
 The project is configured with a modern Kotlin DSL Gradle build script, which handles compilation, linking, and dependency management (including copying data files) automatically.
